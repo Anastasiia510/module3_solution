@@ -1,1 +1,28 @@
-
+#header-nav {
+    background-color: #b8b8b8;
+    border-radius: 0;
+    border: 0;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  .navbar-brand h1 {
+    color: #000000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  #main-content>div{
+    border:1px black solid;
+    margin-bottom:20px;
+    background-color: #deb5b5;
+  }
+@media (max-width: 767px) {
+    #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+}
